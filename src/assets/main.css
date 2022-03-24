@@ -1,0 +1,18 @@
+:root{
+  --color-primary: #07be5b;
+  --color-secondary: #f7f8f9;
+  --color-third: #2c3e50;
+}
+*{
+  padding:0;
+  margin:0;
+}
+html {
+  /* font-size: 62.5%; */
+  /* 1rem = 10px */
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  /* font-size: 1.6rem; */
+}
