@@ -27,7 +27,7 @@
       </div>
     </div>
     <h1 class="text-center p-5">Product Features</h1>
-    <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-5 text-center mx-5 my-3">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-5 text-center features">
       <div class="col">
         <div class="card h-100">
           <img
@@ -141,5 +141,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .features {
+    margin: 0px 48px 48px 48px;
+  }
 </style>
